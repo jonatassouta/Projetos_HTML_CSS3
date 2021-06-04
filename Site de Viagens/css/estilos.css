@@ -1,0 +1,63 @@
+.contato-select,
+.grupo-radio {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+.grupo-radio.radio:first.child {
+	margin-top: 0px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+header {
+	background-image: url(../img/logo2-1.jpg);
+	background-size: cover;/*capa do header*/
+	background-position: top center;
+	height: 85%;
+	width: 100%;
+	position: relative;
+}
+
+header h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.Siteviagen-banner {
+	color: #FFF; /*Texto branco*/
+	background-color: rgba(0,0,0,0.5);/*Padrão de cores red green blue 
+	(três cores que forma todas as cores)
+	a opacidade (transparencia) 0 valor mais escuro possivel */
+	padding: 20px;
+	width: 50%;
+	border-radius: 8px;/*deixa as bordas arredondadas na imagem */
+	position: absolute;
+	top: 30%;/*empurra da esquerda para a direita*//*transform:translatex(-50); posicionar conforme
+	a caixa no eixo horizontal*/
+	left: 30%;/*empurrar da esquerda para a direita*//*transform:translatex(-50); posicionar conforme
+	a caixa no eixo horizontal*/
+	transform: translate(-50%,-50%);/*posicionar conforme a caixa no eixo vertical e eixo horizontal*/
+	transition: 1s;	 
+}
+.contato-select,
+.grupo-radio{
+	display: inline-block;
+	width: 50%;
+	vertical-align: 10px;
+}
+.grupo-radio.radio: first-child{
+	margin-top: 0;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer address:last-child {
+	margin-bottom: 0;
+}

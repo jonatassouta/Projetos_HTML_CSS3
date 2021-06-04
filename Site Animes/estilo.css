@@ -1,0 +1,30 @@
+#principal {
+	width: 900px;
+	text-align: center;
+}
+
+#menu {
+	background: gray;
+	padding: 7px;
+}
+
+#img-fundo {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.anime1 {
+	/*border: 1px solid red;*/
+	width: 428px;
+	margin: 10px;
+	float: left;
+}
+
+.img-anime {
+	width: 100%;
+}

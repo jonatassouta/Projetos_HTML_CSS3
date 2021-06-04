@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width" scale="1">
+</head>
+<body style="background-image: url(img/machu.jpg);color: black;">
+	<header">
+		<nav class="navbar navbar-defaut">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+						<!--aria-expanded false, significa não expandido-->
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<!--São os Tracinhos do Menu-->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="#">LugaresMaisLindos</a>
+				</div>
+
+				<div id="collapse-navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="Site exercicios.html">Voltar ao Inicio</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section id="contato" class="container"><b>
+		<h2><b>Contato</h2></b>
+		<h4><b>Entre em contato conosco</h4></b>
+
+		<form>
+			<div class="form-group">
+				<label for="contato-nome"><b>Nome:</b></label>
+				<input id="contato-nome" class="form-control" type="text" placeholder="Seu nome">
+			</div>
+
+			<div class="form-group">
+				<label for="contato-email"><b>E-mail:</b></label>
+				<div class="input-group">
+					<div class="input-group-addon">@</div>
+					<input id="contato-email" class="form-control" type="email" placeholder="Seu e-mail">
+				</div>
+			</div>
+
+			<div class="grupo-radio">
+				<div class="radio">
+					<label>
+						<input type="radio" name="tipo-pessoa" value="fisica" checked><b>Pessoa Fisica</b>
+					</label>
+				</div>
+
+				<div class="radio">
+					<label>
+						<input type="radio" name="tipo-pessoa" value="juridica"><b>Pessoa Juridica</b>
+					</label>
+				</div>
+			</div>
+
+			<select class="contato-select form-control" name="tipo-solicitacao">
+				<option value="" disabled selected>Tipo de Solicitação</option>
+				<option value="casa">Casa</option>
+				<option value="apartamento">Apartamento</option>
+				<option value="mansao">Mansão</option>
+			</select>
+
+			<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>		
+	</section>
+</body>
+</html>
