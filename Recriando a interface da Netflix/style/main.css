@@ -131,3 +131,35 @@ header nav a:hover {
     margin-bottom: 15px;
     margin-left: 5px;
 }
+
+/* DIV POP-UP 
+
+#pop {
+    display: flex;
+    position:absolute;
+    top: 50%; left:40%;
+    margin-left:-400px;
+    margin-top:-180px;
+    padding:10px;
+    width:80%;
+    height:80%;
+    border:1px solid #d0d0d0;
+    background-color: #141414;
+    transition: .3s ease all;
+    border-radius: 10px;
+}
+
+.fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+    text-decoration: none;
+}  */
