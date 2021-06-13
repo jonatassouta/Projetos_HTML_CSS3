@@ -52,7 +52,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 300px;
+    width: 500px;
     word-spacing: 10px
 }
 
@@ -130,6 +130,15 @@ header nav a:hover {
     margin-top: 10px;
     margin-bottom: 15px;
     margin-left: 5px;
+}
+
+input {
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 25px;
 }
 
 /* DIV POP-UP 
