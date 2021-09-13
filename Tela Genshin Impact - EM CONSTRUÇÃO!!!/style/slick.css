@@ -1,0 +1,150 @@
+body {
+  background-color: black;
+}
+
+.info-perso img{
+  position: absolute;
+  margin-left: -17rem;
+}
+
+.carocel {
+  width:  1438px;
+  height: 1320px;
+  margin: 0 auto;
+}
+
+.carocel1 {
+  height: 765px;
+  width:  1438px;
+  margin: auto;
+}
+
+.fade{
+  margin-left: 24rem;
+  width:  1132px;
+  height: 637px;
+}
+
+.fade img{
+  width:  1132px;
+  height: 637px;
+  margin: auto;
+}
+
+button.slick-next.slick-arrow {
+  z-index: 20;
+  margin-right: -50px;
+  background-image: url("../img/setadire.png");
+  background-size:100%;
+  height: 60px;
+  width: 60px;
+}
+
+button.slick-next.slick-arrow::before {
+  color: transparent  ;
+}
+
+button.slick-prev.slick-arrow {
+  z-index: 20;
+  margin-left: -50px;
+  background-image: url("../img/setadire.png");
+  background-size:100%;
+  height: 60px;
+  width: 60px;
+  margin-top: -30px;
+
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+button.slick-prev.slick-arrow::before {
+  color: transparent  ;
+}
+
+.informacaoPerso {
+  display: flex;
+  margin-top: 21rem;
+  margin-left: 6rem;
+  width: 500px;
+  height: 632px;
+}
+
+/* KAMISATO */
+
+.kamisato {
+  margin-top: 3rem;
+  width:  1438px;
+  height: 10000px;
+  background: url("../img/kamisato.png") no-repeat;
+  background-position-x: 60px;
+}
+
+.kamisato.slick-slide.slick-current.slick-active {
+  height: 1280px;
+}
+
+#imgKamisato {
+  margin: 0;
+}
+
+#textoKamisato {
+  margin-top: 150px;
+  height: 100%px;
+  width: 320px;
+}
+
+#video {
+
+  width: 320px;
+  height: 200px;
+  margin-top: 6rem;
+}
+
+#video img {
+  margin: auto;
+}
+/* YOIMIYA */
+
+.yoimiya {
+  margin-top: 3rem;
+  width:  1438px;
+  height: 1260px;
+  background: url("../img/yoimiya.png");
+  background-position-x: 60px;
+}
+
+/* SAYU */
+
+.sayu {
+  margin-top: 3rem;
+  width:  1438px;
+  height: 1260px;
+  background: url("../img/sayu.png");
+  background-position-x: 60px;
+}
+
+
+.slick-track {
+  height: 730px;
+}
+
+/* CARROSEL CARACTERISTICAS */
+
+#caracte {
+  margin: 0;
+  width: 1132px;
+  height: 637px;
+}
+
+#caracte img{
+  margin: 0;
+  width: 1132px;
+  height: 637px;
+}
+
+.slick-slide {
+  height: 760px;
+}
